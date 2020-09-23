@@ -13,3 +13,12 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+
+import math
+
+a = input("Enter one of the short sides of a right triangle ")
+b = input("Enter the other short side of the right triangle ")
+
+h = math.sqrt(float(a)**2 + float(b)**2)
+
+print("The length of the hypotenuse is " + str(h))
